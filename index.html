@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video AI - Text to Video Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Video AI</h1>
+        <p>Convert your text into detailed video content</p>
+        
+        <div class="input-section">
+            <textarea id="text-input" placeholder="Enter your text here..."></textarea>
+            <button id="generate-btn">Generate Video</button>
+        </div>
+
+        <div class="video-container">
+            <video id="output-video" controls></video>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Generating your video...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
